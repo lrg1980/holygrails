@@ -44,3 +44,29 @@ img {
     text-decoration: none;
 }
 
+/* Cuerpo del blog */
+.contenido-principal {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.sidebar {
+    background-color: #e5e5e5;
+    padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+    .contenido {
+        display: flex;
+    }
+    .sidebar {
+        flex: 0 0 20%;
+        order: -1;
+    }
+}
+
+.footer {
+    background-color: #05bae6;
+    text-align: center;
+    color: #ffffff;
+}
+
